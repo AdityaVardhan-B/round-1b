@@ -127,6 +127,35 @@ Example:
 
 ##  Installation & Running
 
+
+### Steps to Clone the Repository:
+
+Follow these steps to ensure that the repository and all Git LFS files are cloned correctly:
+
+#### **1. Install Git and Git LFS**
+Run the following in terminal
+
+**For Ubuntu/Debian:**
+```bash
+sudo apt update
+sudo apt install git git-lfs
+```
+**For macOS (Homebrew):**
+```bash
+brew install git git-lfs
+```
+**For Windows (Chocolatey):**
+```bash
+choco install git-lfs
+```
+#### 2. **Initialize Git LFS**
+```bash
+git lfs install
+```
+#### 3. Clone the Repository
+```bash
+git clone https://github.com/AdityaVardhan-B/round-1b.git
+```
 ###  Steps to run the Dockerfile
 
 1. **Build the Docker image**:
