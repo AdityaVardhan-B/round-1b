@@ -155,7 +155,7 @@ Run the following in terminal
    ```
 3. **Clone the Repository**
    ```bash
-   docker build -t pdf-summarizer .
+   git clone https://github.com/AdityaVardhan-B/round-1b.git
    ```
 ###  Steps to run the Dockerfile
 
